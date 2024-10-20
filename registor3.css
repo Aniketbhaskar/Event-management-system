@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    background: color #000;;
+
+}
+#part1{
+    height: 100%;
+    width: 26%;
+   background-color: #000;
+}
+
+
+#part2{
+    height: 100%;
+    width: 64%;
+    background-color:black;
+    background-image: url(/videos/code\ faster.gif);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(12, 11, 12, 0.539);
+}
+#part3{
+    height: 100%;
+    width: 10%;
+    background-color: black;
+}
+#text{
+    height: 300px;
+    width: 600px;
+   /* background-color: rgb(157, 16, 117);*/
+    position: absolute;
+    left: 6%;
+    top: 60%;
+    transform: translate(0,-50%);
+}
+#text>h1{
+    font-size: 60px;
+    font-family: monument;
+    font-weight: 100px;
+    line-height: 58px;
+    letter-spacing: 5px;
+    color: whitesmoke;
+}
+  
+#img-div{
+    height: 400px;
+    width: 300px;
+    background-color: aqua;
+    position: absolute;
+    top: 55%;
+    right: 4%;
+    transform: translate(0,-50%);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-5k95FBoaVIPrfstnVm5u-W4oZVg9PxYSsg&s);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+}
+#overlay-in{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(12, 11, 12, 0.442);
+}
+
+#vtext{
+    position: absolute;
+    right: -230px;
+    top: 250px;
+    transform: rotate(90deg);
+   
+
+}
+
+#vtext h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: transparent;
+    font-family: monument;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+   
+}
